@@ -1,6 +1,7 @@
 package xyz.fallenmc.shops.inventories.corrupter;
 
 import itempackage.Items;
+import me.zach.DesertMC.Utils.ench.CustomEnch;
 import org.bukkit.inventory.ItemStack;
 import xyz.fallenmc.shops.items.ClassShopItem;
 
@@ -17,6 +18,14 @@ class CorrupterShopItems {
             protected ItemStack get(){
                 return Items.getVolcanicSword();
             }
+        }, new ClassShopItem(2000, 4, "corrupter") {
+            protected ItemStack get(){
+                return CustomEnch.EXTRAVERT.getBook(1);
+            }
+        }, new ClassShopItem(3000, 4, "corrupter") {
+            protected ItemStack get(){
+                return CustomEnch.EXTRAVERT.getBook(2);
+            }
         }, new ClassShopItem(5000, 5, "corrupter") {
             protected ItemStack get(){
                 return Items.getCorrupterLeggings();
@@ -25,6 +34,22 @@ class CorrupterShopItems {
             protected ItemStack get(){
                 return Items.getCorrupterLeggings();
             }
-        }); //TODO enchantments
+        }, new ClassShopItem(4000, 6, "corrupter") {
+            protected ItemStack get(){
+                return CustomEnch.NO_MERCY.getBook(1);
+            }
+        }, new ClassShopItem(5000, 6, "corrupter") {
+            protected ItemStack get(){
+                return CustomEnch.NO_MERCY.getBook(2);
+            }
+        }, new ClassShopItem(5000, 6, "corrupter") {
+            protected ItemStack get(){
+                return CustomEnch.EXTRAVERT.getBook(3);
+            }
+        }, new ClassShopItem(7000, 8, "corrupter") {
+            protected ItemStack get(){
+                return CustomEnch.NO_MERCY.getBook(3);
+            }
+        });
     }
 }
