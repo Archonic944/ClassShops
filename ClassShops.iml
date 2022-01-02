@@ -10,21 +10,10 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Server/spigot.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/Server/plugins/NPCLib.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/Desktop/Server/spigot.jar!/" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Bukkit/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Bukkit/src/main/javadoc" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Bukkit/src/test/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/CraftBukkit/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/CraftBukkit/src/test/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Spigot-API/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Spigot-API/src/test/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Spigot-Server/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/JAR Sources/Spigot/Spigot-Server/src/test/java" />
-        </SOURCES>
+        <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -39,25 +28,18 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Server/plugins/item-nbt-api-plugin-2.3.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/Server/spigot.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Desktop/Server/spigot.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Desktop/Server/plugins/MainPlugin.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/Server/plugins/NPCLib.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
