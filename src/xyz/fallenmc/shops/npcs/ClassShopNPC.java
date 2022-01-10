@@ -5,7 +5,6 @@ import me.zach.DesertMC.Utils.Config.ConfigUtils;
 import me.zach.databank.saver.PlayerData;
 import net.jitse.npclib.api.events.NPCInteractEvent;
 import org.bukkit.Sound;
-import org.bukkit.entity.Player;
 
 public abstract class ClassShopNPC extends NPCSuper {
     String levelLow;
@@ -18,11 +17,11 @@ public abstract class ClassShopNPC extends NPCSuper {
         this.clazz = clazz;
     }
 
-    public ClickResponse clickResponse(NPCInteractEvent event){
+    public ClickResponse guiNpcClickResponse(NPCInteractEvent event){
         PlayerData data = ConfigUtils.getData(event.getWhoClicked());
         if(data.getClassLevel(clazz) <= 2){
             return new ClickResponse(levelLow, false);
         }else if(!data.getCurrentClass().equals(clazz)) return new ClickResponse(unselected, false);
-        else return super.clickResponse(event);
+        else return super.guiNpcClickResponse(event);
     }
 }

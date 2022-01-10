@@ -42,11 +42,11 @@ public class ScoutShopItems {
         }
     }, new ClassShopItem(5000, 7, "scout") {
         protected ItemStack get(){
-            return CustomEnch.SPIRIT_GUARD.getBook(1);
+            return CustomEnch.SPIRIT_GUARD.getBook(2);
         }
     }, new ClassShopItem(7000, 8, "scout") {
         protected ItemStack get(){
-            return CustomEnch.SPIRIT_GUARD.getBook(1);
+            return CustomEnch.SPIRIT_GUARD.getBook(3);
         }
     });
 }
