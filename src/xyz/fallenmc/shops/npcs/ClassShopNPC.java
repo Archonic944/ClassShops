@@ -19,9 +19,10 @@ public abstract class ClassShopNPC extends NPCSuper {
 
     public ClickResponse guiNpcClickResponse(NPCInteractEvent event){
         PlayerData data = ConfigUtils.getData(event.getWhoClicked());
-        if(data.getClassLevel(clazz) <= 2){
-            return new ClickResponse(levelLow, false);
-        }else if(!data.getCurrentClass().equals(clazz)) return new ClickResponse(unselected, false);
+        String currentClass = data.getCurrentClass();
+        int clazzLevelThis = data.getClassLevel(clazz);
+        if(!currentClass.equals(clazz)) return new ClickResponse(unselected, false);
+        else if(clazzLevelThis <= 2) return new ClickResponse(levelLow, false);
         else return super.guiNpcClickResponse(event);
     }
 }
