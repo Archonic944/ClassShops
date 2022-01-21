@@ -34,6 +34,15 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="Maven: xyz.fallenmc:FallenItems:1.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/Server/plugins/FallenItems.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="Maven: xyz.fallenmc:Databank:1.0">
         <CLASSES>
           <root url="jar://$USER_HOME$/Desktop/Server/plugins/DataBank.jar!/" />
