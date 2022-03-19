@@ -1,5 +1,6 @@
 package xyz.fallenmc.shops.npcs.clazz;
 
+import me.zach.DesertMC.CommandsPackage.NPCCommand;
 import net.jitse.npclib.api.events.NPCInteractEvent;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
