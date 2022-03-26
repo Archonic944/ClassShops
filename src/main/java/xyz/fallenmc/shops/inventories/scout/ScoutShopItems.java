@@ -16,11 +16,11 @@ public class ScoutShopItems {
         protected ItemStack get(){
             return Items.getScoutGoggles();
         }
-    }, new ClassShopItem(2000, 4, "scout") {
+    }, new ClassShopItem(1000, 4, "scout") {
         protected ItemStack get(){
             return CustomEnch.ANTI_FOCUS.getBook(1);
         }
-    }, new ClassShopItem(3000, 4, "scout") {
+    }, new ClassShopItem(1500, 4, "scout") {
         protected ItemStack get(){
             return CustomEnch.ANTI_FOCUS.getBook(2);
         }
@@ -32,19 +32,19 @@ public class ScoutShopItems {
         protected ItemStack get(){
             return Items.getScoutBlade();
         }
-    }, new ClassShopItem(5000, 6, "scout") {
+    }, new ClassShopItem(3000, 6, "scout") {
         protected ItemStack get(){
             return CustomEnch.ANTI_FOCUS.getBook(3);
         }
-    }, new ClassShopItem(4000, 7, "scout") {
+    }, new ClassShopItem(2000, 7, "scout") {
         protected ItemStack get(){
             return CustomEnch.SPIRIT_GUARD.getBook(1);
         }
-    }, new ClassShopItem(5000, 7, "scout") {
+    }, new ClassShopItem(3000, 7, "scout") {
         protected ItemStack get(){
             return CustomEnch.SPIRIT_GUARD.getBook(2);
         }
-    }, new ClassShopItem(7000, 8, "scout") {
+    }, new ClassShopItem(4500, 8, "scout") {
         protected ItemStack get(){
             return CustomEnch.SPIRIT_GUARD.getBook(3);
         }

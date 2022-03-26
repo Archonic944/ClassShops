@@ -16,11 +16,11 @@ public class WizardShopItems {
         protected ItemStack get(){
             return Items.getMagicWand();
         }
-    }, new ClassShopItem(2500, 4, "wizard") {
+    }, new ClassShopItem(1000, 4, "wizard") {
         protected ItemStack get(){
             return CustomEnch.ALERT.getBook(1);
         }
-    }, new ClassShopItem(3500, 4, "wizard"){
+    }, new ClassShopItem(1500, 4, "wizard"){
         protected ItemStack get(){
             return CustomEnch.ALERT.getBook(2);
         }
@@ -32,7 +32,7 @@ public class WizardShopItems {
         protected ItemStack get(){
             return Items.getWizardBlade();
         }
-    }, new ClassShopItem(5000, 7, "wizard"){
+    }, new ClassShopItem(3500, 7, "wizard"){
         protected ItemStack get(){
             return CustomEnch.ALERT.getBook(3);
         }

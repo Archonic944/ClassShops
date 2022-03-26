@@ -16,11 +16,11 @@ public class TankShopItems {
         protected ItemStack get(){
             return Items.getBludgeon();
         }
-    }, new ClassShopItem(2000, 4, "tank") {
+    }, new ClassShopItem(1500, 4, "tank") {
         protected ItemStack get(){
             return CustomEnch.TURTLE.getBook(1);
         }
-    }, new ClassShopItem(3000, 4, "tank") {
+    }, new ClassShopItem(2500, 4, "tank") {
         protected ItemStack get(){
             return CustomEnch.TURTLE.getBook(2);
         }
@@ -32,11 +32,11 @@ public class TankShopItems {
         protected ItemStack get(){
             return CustomEnch.TURTLE.getBook(3);
         }
-    }, new ClassShopItem(4000, 7, "tank") {
+    }, new ClassShopItem(2000, 7, "tank") {
         protected ItemStack get(){
             return CustomEnch.CRUEL_BLOW.getBook(1);
         }
-    }, new ClassShopItem(5000, 7, "tank") {
+    }, new ClassShopItem(3000, 7, "tank") {
         protected ItemStack get(){
             return CustomEnch.CRUEL_BLOW.getBook(2);
         }
@@ -44,7 +44,7 @@ public class TankShopItems {
         protected ItemStack get(){
             return Items.getStomper();
         }
-    }, new ClassShopItem(7000, 8, "tank") {
+    }, new ClassShopItem(5000, 8, "tank") {
         protected ItemStack get(){
             return CustomEnch.CRUEL_BLOW.getBook(3);
         }
